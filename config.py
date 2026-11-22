@@ -3,7 +3,7 @@
 
 # 定例の曜日・開始時刻・終了時刻・名前
 MEETINGS = [
-    {"weekday": 1, "time": "18:00", "end": "20:00", "title": "火曜定例"},
+    {"weekday": 2, "time": "18:00", "end": "20:00", "title": "水曜定例"},
     {"weekday": 6, "time": "18:00", "end": "20:00", "title": "日曜定例"},
 ]
 
@@ -12,7 +12,7 @@ POST_DAYS_BEFORE = 1
 POST_TIME = "20:00"
 
 # 未回答者へのリマインド（定例当日の何時か）。不要なら None
-REMIND_TIME = None
+REMIND_TIME = "12:00"
 
 # 集計を投稿するタイミング（開始の何分前か）。この時刻を締切として案内します
 SUMMARY_MINUTES_BEFORE = 30
